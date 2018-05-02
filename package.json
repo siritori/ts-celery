@@ -1,0 +1,23 @@
+{
+  "name": "ts-celery",
+  "version": "0.0.1",
+  "description": "Celery Client for Node.js written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "typescript",
+    "celery"
+  ],
+  "author": "uznami",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.6",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^3.4.3",
+    "typescript": "^2.8.3"
+  }
+}
